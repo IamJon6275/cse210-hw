@@ -12,6 +12,13 @@ class Program
 
         Console.WriteLine("");
 
+        //string concatenation
+        //Console.WriteLine("Your name is " + lname + ", " + fname + " " + lname);
+
+        //string interpolation
         Console.WriteLine($"Your name is {lname}, {fname} {lname}");
+
+        //string formatting
+        //Console.WriteLine("Your name is {0}, {1} {0}", lname, fname);
     }
 }
